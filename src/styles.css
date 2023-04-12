@@ -3,5 +3,70 @@
     padding: 0;
 }
 
-#content {
+body {
+    height: 100vh;
+    text-align: center;
+}
+
+header,
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: clamp(5%, 10%, 25%);
+    justify-items: start;
+}
+
+h1 {
+    display: flex;
+    justify-content: start;
+    flex: 3;
+    padding-left: 3%;
+    font-size: 2.5rem;
+}
+
+#nav-list {
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    padding-right: 3%;
+}
+
+#nav-list > li {
+    flex: 1;
+    font-size: 1.5rem;
+}
+
+#main {
+    background: url("./restaurant.jpg");
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    height: clamp(2%, 4%, 6%);
+    width: 100%;
+    justify-content: center;
 }
