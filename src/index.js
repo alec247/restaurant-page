@@ -21,3 +21,5 @@ const addTabListeners = (() => {
         loadContact();
     });
 })();
+
+loadAbout();

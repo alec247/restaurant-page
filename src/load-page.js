@@ -37,6 +37,15 @@ const createMain = () => {
     return main;
 };
 
+const createContent = () => {
+    const div = document.createElement("div");
+    div.id = "content";
+
+    div.innerHTML = "";
+
+    return div;
+};
+
 const createFooter = () => {
     const footer = document.createElement("footer");
 
@@ -50,6 +59,7 @@ const loadPage = () => {
 
     body.appendChild(createHeader());
     body.appendChild(createMain());
+    body.appendChild(createContent());
     body.appendChild(createFooter());
 };
 

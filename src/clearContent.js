@@ -1,5 +1,5 @@
 const clearContent = () => {
-    console.log("content cleared");
+    document.querySelector("#content").innerHTML = "";
 };
 
 export default clearContent;

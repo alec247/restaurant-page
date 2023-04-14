@@ -1,0 +1,62 @@
+{
+    "Drinks": [
+        {
+            "item": "Moscow Mule",
+            "desc": "Vodka, ginger beer, and a splash of fresh lime juice.",
+            "price": 12
+        },
+        {
+            "item": "Aviation",
+            "desc": "Gin, cherry liquer, creme de violette, simple syrup, and lemon juice.",
+            "price": 14
+        }
+    ],
+    "Appetizers": [
+        {
+            "item": "Glazed Brussels",
+            "desc": "Brussel Sprouts roasted with parmesan cheese and a raspberry balsamic glaze.",
+            "price": 17
+        },
+        {
+            "item": "Charcuterie",
+            "desc": "Chef's selection of meats, cheeses, and accompaniments.",
+            "price": 19
+        }
+    ],
+    "Salads": [
+        {
+            "item": "Caprese",
+            "desc": "Basil, fresh locally-grown tomatoes, and Bufalo mozzarella drizzled with olive oil and balsamic.",
+            "price": 11
+        },
+        {
+            "item": "Asian Chicken Salad",
+            "desc": "Chicken, salad, whatever else goes in an asian chicken salad.",
+            "price": 16
+        }
+    ],
+    "Entrees": [
+        {
+            "item": "Steak Frites",
+            "desc": "12oz NY Strip Streak with truffle butter. Served with fries and homemade ketchup.",
+            "price": 34
+        },
+        {
+            "item": "Garlic Honey Salmon",
+            "desc": "8oz of freshly caught Atlantic Salmon, served with asparagus.",
+            "price": 28
+        }
+    ],
+    "Desserts": [
+        {
+            "item": "Creme Brulee",
+            "desc": "Traditional creme brulee. If it ain't broke, don't fix it.",
+            "price": 12
+        },
+        {
+            "item": "Chocolate Lava Cake",
+            "desc": "Soft chocolate cake filled with warm dark chocolate ganache.",
+            "price": 15
+        }
+    ]
+}

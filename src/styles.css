@@ -6,6 +6,8 @@
 body {
     height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 header,
@@ -20,7 +22,6 @@ header {
     color: white;
     position: sticky;
     top: 0;
-    z-index: 1;
     height: clamp(5%, 10%, 25%);
     justify-items: start;
 }
@@ -45,6 +46,10 @@ h1 {
     font-size: 1.5rem;
 }
 
+#nav-list > li:hover {
+    cursor: grab;
+}
+
 #main {
     background: url("./restaurant.jpg");
     position: absolute;
@@ -54,18 +59,48 @@ h1 {
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
+    z-index: -1;
 }
 
 img {
     width: 100%;
 }
 
+#content {
+    background-color: rgba(0, 0, 0, 0.726);
+    flex: 1;
+    margin: 5rem;
+    width: 45%;
+    align-self: center;
+    color: white;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+#content:nth-child(1) {
+    width: 65%;
+    height: auto;
+    margin-top: 3rem;
+}
+
+h2 > ul > li {
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+button {
+    padding: 1rem 3rem;
+}
+
 footer {
     background-color: rgba(0, 0, 0, 0.726);
     color: white;
-    position: absolute;
+    position: sticky;
     bottom: 0;
-    z-index: 1;
     height: clamp(2%, 4%, 6%);
     width: 100%;
     justify-content: center;
